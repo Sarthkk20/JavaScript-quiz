@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+}
+
+.col-md-7{
+    margin: 250px !important;
+    background-color: azure;
+    padding: 20px;
+}
+
+h1{
+    background-color: blue;
+    color: azure;
+}
+
+input, label{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+

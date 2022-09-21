@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS QUIZ</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 shadow-lg p-3 mb-5 bg-white rounded">
+          <h1 class="text-center">JS QUIZ</h1>
+          <div id="quizdiv">
+            <h2 id="question">Question</h2>
+            <li>
+              <input type="radio" class="answer" id="a" / name="answer">
+              <label for="a" id="a_value">option1</label>
+            </li>
+            <li>
+              <input type="radio" class="answer" id="b" name="answer" />
+              <label for="b" id="b_value">option1</label>
+            </li>
+            <li>
+              <input type="radio" class="answer" id="c" name="answer" />
+              <label for="a" id="c_value">option1</label>
+            </li>
+            <li>
+              <input type="radio" class="answer" id="d" name="answer" />
+              <label for="a" id="d_value">option1</label>
+            </li>
+            <button class="btn btn-primary" id="submit">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./app.js"></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.7.1.min.js"
+></script>
